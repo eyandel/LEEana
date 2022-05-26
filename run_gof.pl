@@ -8,7 +8,7 @@ system("./convert_histo.pl");
 system("./bin/stat_pred_cov_matrix -r0 &");
 
 #Det sys
-# system("./run_det_sys.pl");
+system("./run_det_sys.pl");
 
 #data statistical uncertainties
 # system("./bin/stat_cov_matrix -r0 &");
