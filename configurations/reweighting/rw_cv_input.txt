@@ -1,0 +1,43 @@
+1    NCPi0_Np    truth_energyInside    200    1400    0    0    1
+
+0.279332  0.388117  0.553707  0.679725  0.688555  0.617495  0.567947  0.560433  0.59077  0.617946  0.584057  0.519013  0.471467 0.458097  0.553915  0.735836  0.990822  1.26522  1.57029  1.73207  1.9213  1.99958  2.05557  2.18402
+
+1   NCPi0_0p     truth_energyInside    100    800    0    0    1
+
+1.2466  1.18207  1.16923  1.37165  1.51289  1.42552  1.11135  0.76296  0.574159  0.617545  0.864722  1.15229  1.64071  2.08024
+
+1    NCDeltaNp_scale    truth_energyInside    0    1500    0    0     1
+
+0.7l688 
+
+1    NCDelta0p_scale    truth_energyInside    0    1500    0    0    1
+
+1.0066
+
+end
+
+
+
+
+Above is the reweighting that accounts for constrain from numuCC, below is the reweighting that does not account for constraint.
+
+1    NCPi0_Np    truth_energyInside    200    1100    0    1    1
+
+0.47346  0.513817  0.620152  0.711642  0.683565  0.599427  0.487592  0.368639  0.306867  0.316878  0.3627  0.382381  0.370914  0.339537  0.327263  0.246093
+
+1   NCPi0_0p     truth_energyInside    100    800    0    1    1
+
+2.18203  1.99804  1.8456  1.85226  1.88324  1.8381  1.62346  1.321  1.08835  1.0664  1.26347  1.62921  2.07742  2.68451  3.2522  2.67171
+
+1    NCDeltaNp_scale    truth_energyInside    0    1500    0    0     1
+
+0.6475
+
+1    NCDelta0p_scale    truth_energyInside    0    1500    0    0    1
+
+1.2378
+
+end
+
+
+
