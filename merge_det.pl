@@ -10,9 +10,9 @@ while(<infile>){
 	last;
     }
     if ($num % 10 == 9){
-	system("./bin/merge_det $filename");
+	system("/exp/uboone/app/users/eyandel/wcp-uboone-bdt/bin/merge_det $filename");
     }else{
-	system("./bin/merge_det $filename&");
+	system("/exp/uboone/app/users/eyandel/wcp-uboone-bdt/bin/merge_det $filename&");
     }
     $num ++;
 }

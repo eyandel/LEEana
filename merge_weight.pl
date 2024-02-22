@@ -8,13 +8,14 @@ while(<infile>){
     chomp($filename);
     @temp = split(/\s+/,$filename);
     if ($temp[0] eq 'end') {
+	print "end\n";
 	last;
     }
     
-    if ($num % 12 == 11){
-	system("./bin/merge_xf $filename ");
+    if ($num % 17 == 16){
+        system("/exp/uboone/app/users/eyandel/wcp-uboone-bdt/bin/merge_xf $filename ");
     }else{
-	system("./bin/merge_xf $filename &");
+	system("/exp/uboone/app/users/eyandel/wcp-uboone-bdt/bin/merge_xf $filename &");
     }
     $num ++;
 }

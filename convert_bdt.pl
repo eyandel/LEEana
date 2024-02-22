@@ -15,27 +15,27 @@ while(<infile>){
     
     if ($temp[4] == 1){
 	if ($num %12 == $limit){
-	    system("bin/bdt_convert $temp[0]$temp[1]  $temp[2]$temp[1] -l./training_list/list.dat");
+	    system("/exp/uboone/app/users/eyandel/wcp-uboone-bdt/bin/bdt_convert $temp[0]$temp[1]  $temp[2]$temp[1] -l./training_list/list.dat");
 	}else{
-	    system("bin/bdt_convert $temp[0]$temp[1]  $temp[2]$temp[1] -l./training_list/list.dat &");
+	    system("/exp/uboone/app/users/eyandel/wcp-uboone-bdt/bin/bdt_convert $temp[0]$temp[1]  $temp[2]$temp[1] -l./training_list/list.dat &");
 	}
     }elsif ($temp[4]==2){
 	if ($num %12 == $limit){
-	    system("bin/bdt_convert $temp[0]$temp[1] $temp[2]$temp[1]  -g$temp[5]  -l./training_list/list.dat");
+	    system("/exp/uboone/app/users/eyandel/wcp-uboone-bdt/bin/bdt_convert $temp[0]$temp[1] $temp[2]$temp[1]  -g$temp[5]  -l./training_list/list.dat");
 	}else{
-	    system("bin/bdt_convert $temp[0]$temp[1] $temp[2]$temp[1]  -g$temp[5] -l./training_list/list.dat &");
+	    system("/exp/uboone/app/users/eyandel/wcp-uboone-bdt/bin/bdt_convert $temp[0]$temp[1] $temp[2]$temp[1]  -g$temp[5] -l./training_list/list.dat &");
 	}
     }elsif ($temp[4]==3){
 	if ($num %12 == $limit){
-	    system("bin/bdt_convert $temp[0]$temp[1] $temp[2]$temp[1] -s1");
+	    system("/exp/uboone/app/users/eyandel/wcp-uboone-bdt/bin/bdt_convert $temp[0]$temp[1] $temp[2]$temp[1] -s1");
 	}else{
-	    system("bin/bdt_convert $temp[0]$temp[1] $temp[2]$temp[1] -s1 &");
+	    system("/exp/uboone/app/users/eyandel/wcp-uboone-bdt/bin/bdt_convert $temp[0]$temp[1] $temp[2]$temp[1] -s1 &");
 	}
     }else{
 	if ($num %12 == $limit){
-	    system("bin/bdt_convert $temp[0]$temp[1] $temp[2]$temp[1] ");
+	    system("/exp/uboone/app/users/eyandel/wcp-uboone-bdt/bin/bdt_convert $temp[0]$temp[1] $temp[2]$temp[1] ");
 	}else{
-	    system("bin/bdt_convert $temp[0]$temp[1] $temp[2]$temp[1] &");
+	    system("/exp/uboone/app/users/eyandel/wcp-uboone-bdt/bin/bdt_convert $temp[0]$temp[1] $temp[2]$temp[1] &");
 	}
     }
     
